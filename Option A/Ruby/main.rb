@@ -1,5 +1,5 @@
-# Method 1
-def reverse1(arr)
+# Method 2
+def reverse2(arr)
     retval = []
     arr.each do |e| 
         # retval.unshift(*[e])
@@ -8,8 +8,8 @@ def reverse1(arr)
     return retval
 end
 
-# Method 2
-def reverse2(arr)
+# Method 1
+def reverse1(arr)
     arr.each_index.map {|i| arr[-1 - i]}
 end
 
