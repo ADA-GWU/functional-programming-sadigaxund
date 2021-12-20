@@ -3,7 +3,7 @@ def reverse1(arr)
     retval = []
     arr.each do |e| 
         # retval.unshift(*[e])
-        retval =  [e] + retval[0..retval.length]
+        retval =  [e] + retval
     end 
     return retval
 end
